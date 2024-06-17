@@ -1,8 +1,10 @@
 import sys
 from settings import *
-import create_grid, draw_grid, reveal, check_win, draw_end_screen
-# Ініціалізація Pygame
-pygame.init()
+from create_grid import create_grid
+from draw_grid import draw_grid
+from reveal import reveal
+from check_win import check_win
+from draw_end_screen import draw_end_screen
 
 # Основна функція гри
 def main():

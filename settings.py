@@ -1,5 +1,8 @@
 import pygame
 
+# Ініціалізація Pygame
+pygame.init()
+
 # Налаштування
 WIDTH, HEIGHT = 800, 800
 ROWS, COLS = 20, 20
