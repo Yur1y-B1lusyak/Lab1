@@ -1,6 +1,6 @@
-import main
 import random
 
+# Функція для створення поля
 def create_grid(rows, cols, mine_count):
     grid = [[0 for _ in range(cols)] for _ in range(rows)]
     mines = set()
